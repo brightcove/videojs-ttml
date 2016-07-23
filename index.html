@@ -1,0 +1,20 @@
+<script src="./node_modules/video.js/build/temp/video.js"></script>
+<link href="./node_modules/video.js/build/temp/video-js.css" rel="stylesheet">
+<link href="./src/plugin.css" rel="stylesheet">
+
+<video id="ttmlPlayer" controls class="video-js">
+  <source src="./node_modules/video.js/sandbox/oceans.mp4" type="video/mp4">
+  <!--<track src="test/fixtures/sample1.dfxp" kind="captions" label="English" srclang="en-us">-->
+</video>
+
+<script src="./src/ttml-display.js"></script>
+<script src="./src/ttml-parser.js"></script>
+<script src="./src/plugin.js"></script>
+<script>
+  var player = videojs('ttmlPlayer');
+  player.ttml({
+    src: 'test/fixtures/sample1.dfxp',
+    label: 'English',
+    srclang: 'en-us'
+  });
+</script>
