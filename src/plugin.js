@@ -11,6 +11,7 @@ videojs.plugin('ttml', function(options) {
       return videojs.error(err);
     }
 
-    parseTtml(body, player.currentHeight());
+    const styleParser = parseTtml(body, player.currentHeight());
+    player.ttml.styleParser = styleParser;
   });
 });

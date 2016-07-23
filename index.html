@@ -9,12 +9,14 @@
 
 <script src="./src/ttml-display.js"></script>
 <script src="./src/ttml-dom-parser.js"></script>
+<script src="./src/tts-styles-map.js"></script>
+<script src="./src/parse-colors.js"></script>
 <script src="./src/ttml-parser.js"></script>
 <script src="./src/plugin.js"></script>
 <script>
   var player = videojs('ttmlPlayer');
   player.ttml({
-    src: 'test/fixtures/sample1.dfxp',
+    src: 'test/fixtures/full.xml',
     label: 'English',
     srclang: 'en-us'
   });

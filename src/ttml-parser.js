@@ -16,4 +16,6 @@ const parseTtml = function(ttml, height) {
   const body = dom.querySelector('body');
 
   const styleParser = new TtmlDomParser(dom, {}, height);
+
+  return styleParser;
 };
