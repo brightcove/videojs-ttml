@@ -1,4 +1,4 @@
-const parseTtml = function(ttml) {
+const parseTtml = function(ttml, height) {
   const dom = (new DOMParser()).parseFromString(ttml, 'text/xml');
 
   // remove all potential <script> elements
@@ -14,6 +14,6 @@ const parseTtml = function(ttml) {
 
   const language = dom.documentElement.getAttribute('xml:lang');
   const body = dom.querySelector('body');
-  
-  console.log(language, body);
+
+  const styleParser = new TtmlDomParser(dom, {}, height);
 };
