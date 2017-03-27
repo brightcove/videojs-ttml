@@ -212,12 +212,7 @@ TtmlDomParser.prototype.parseParagraph = function(child, parentElement, language
 
   if (!this.captionsArray[language]) {
     // first caption for this language
-    this.captionsArray[language] = {
-      add: function(item) {
-        this.items = this.items || [];
-        this.items.push(item);
-      }
-    };
+    this.captionsArray[language] = new SortedList();
   }
   if(currentRegion) {
 
@@ -325,7 +320,7 @@ TtmlDomParser.prototype.parseCaption = function(node) {
 
       cssCell['display'] = 'table-cell';
       cssCell['vertical-align'] = verticalAlign;
-      //css['background-color'] = 'rgba(0,0,0,0)';
+      // css['background-color'] = 'rgba(0,0,0,0)';
 
       cssTable['display'] = 'table';
       cssTable['table-layout'] = 'fixed';

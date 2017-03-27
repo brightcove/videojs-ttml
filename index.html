@@ -1,12 +1,22 @@
 <script src="./node_modules/video.js/build/temp/video.js"></script>
 <link href="./node_modules/video.js/build/temp/video-js.css" rel="stylesheet">
 <link href="./src/plugin.css" rel="stylesheet">
+<style>
+  .video-js .vjs-current-time {
+    display: flex;
+  }
+</style>
 
 <video id="ttmlPlayer" controls class="video-js">
   <source src="./node_modules/video.js/sandbox/oceans.mp4" type="video/mp4">
   <!--<track src="test/fixtures/sample1.dfxp" kind="captions" label="English" srclang="en-us">-->
 </video>
+<button class="on-button">On</button>
+<button class="off-button">Off</button>
+<button class="en-button">En</button>
+<button class="fr-button">Fr</button>
 
+<script src="./src/sorted-list.js"></script>
 <script src="./src/ttml-display.js"></script>
 <script src="./src/ttml-dom-parser.js"></script>
 <script src="./src/tts-styles-map.js"></script>
@@ -17,6 +27,9 @@
   var player = videojs('ttmlPlayer');
   player.ttml({
     src: 'test/fixtures/full.xml',
+    <!-- src: 'test/fixtures/fontFamily.xml', -->
+    <!-- src: 'test/fixtures/colors.xml', -->
+    <!-- src: 'test/fixtures/colors.paragraph.xml', -->
     label: 'English',
     srclang: 'en-us'
   });

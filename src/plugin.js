@@ -1,7 +1,6 @@
 videojs.plugin('ttml', function(options) {
   const player = this;
-
-  player.addChild('ttmlDisplay');
+  let ttmlDisplay;
 
   const dfxpurl = options.src;
   videojs.xhr({
@@ -13,5 +12,24 @@ videojs.plugin('ttml', function(options) {
 
     const styleParser = parseTtml(body, player.currentHeight());
     player.ttml.styleParser = styleParser;
+
+    ttmlDisplay = player.addChild('ttmlDisplay');
+  });
+
+  document.querySelector('.on-button').addEventListener('click', function() {
+    ttmlDisplay.enable();
+  });
+  document.querySelector('.off-button').addEventListener('click', function() {
+    ttmlDisplay.disable();
+  });
+
+  document.querySelector('.en-button').addEventListener('click', function() {
+    ttmlDisplay.setLanguage('en');
+    ttmlDisplay.enable();
+  });
+
+  document.querySelector('.fr-button').addEventListener('click', function() {
+    ttmlDisplay.setLanguage('fr');
+    ttmlDisplay.enable();
   });
 });
