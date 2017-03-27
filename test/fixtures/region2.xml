@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" >
+    <head>
+        <styling>
+            <style xml:id="style1" tts:origin="10% 20%"></style>
+        </styling>
+        <layout>
+            <region xml:id="set3-region1" style="style1">
+                <style tts:displayAlign="before"></style>
+                <style tts:lineHeight="normal"></style>
+                <style tts:wrapOption="wrap"></style>
+                <style tts:display="none"></style>
+                <style tts:extent="40% 40%"></style>
+                <style tts:padding="5px"></style>
+            </region>
+            <region xml:id="set3-region2" style="style1">
+                <style tts:displayAlign="middle"></style>
+                <style tts:lineHeight="35px"></style>
+                <style tts:wrapOption="noWrap"></style>
+                <style tts:display="auto"></style>
+            </region>
+            <region xml:id="set3-region3" style="style1">
+                <style tts:displayAlign="after"></style>
+                <style tts:lineHeight="120%"></style>
+                <style tts:visbility="visible"></style>
+            </region>
+            <region xml:id="set3-region4">
+                <style tts:visbility="hidden"></style>
+            </region>
+        </layout>
+    </head>
+    <body tts:textAlign="center">
+        <div ttm:role="captions">
+            <p region="set3-region1" begin="00:00:02.000" end="00:00:02.900">Region 1</p>
+        </div>
+    </body>
+</tt>

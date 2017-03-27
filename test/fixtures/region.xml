@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" >
+    <head>
+        <styling>
+            <style xml:id="style1" tts:origin="10% 20%"></style>
+        </styling>
+        <layout>
+            <region xml:id="region1" style="style1">
+                <style tts:extent="30% 30%"></style>
+            </region>
+        </layout>
+    </head>
+    <body tts:textAlign="center">
+        <div ttm:role="captions">
+            <p region="region1" begin="00:00:02.000" end="00:00:02.900">Region 1</p>
+        </div>
+    </body>
+</tt>

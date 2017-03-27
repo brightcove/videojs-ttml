@@ -1,0 +1,28 @@
+﻿<tt xmlns="http://www.w3.org/ns/ttml">
+    <body>
+        <div xml:lang="de">
+            <p begin="00:00:00" end="00:00:03">German 00:00:00 to 00:00:03</p>
+            <p begin="00:00:02" end="00:00:08">German 00:00:02 to 00:00:08</p>
+            <p begin="00:00:07" end="00:00:12">German 00:00:07 to 00:00:12</p>
+            <p begin="00:00:11" end="00:00:20">German 00:00:11 to 00:00:20</p>
+            <p begin="00:00:19" end="00:00:35">German 00:00:19 to 00:00:35</p>
+            <p begin="00:00:33" end="00:00:37">German 00:00:33 to 00:00:37</p>
+            <p begin="00:00:35" end="00:00:38">German 00:00:35 to 00:00:38</p>
+            <p begin="00:00:36" end="00:00:40">German 00:00:36 to 00:00:40</p>
+            <p begin="00:00:38" end="00:00:50">German 00:00:38 to 00:00:50</p>
+            <p begin="00:00:48" end="00:00:60">German 00:00:50 to 00:00:60</p>
+        </div>
+        <div>
+            <p begin="00:00:00" end="00:00:03">English 00:00:00 to 00:00:03</p>
+            <p begin="00:00:02" end="00:00:08">English 00:00:02 to 00:00:08</p>
+            <p begin="00:00:07" end="00:00:12">English 00:00:07 to 00:00:12</p>
+            <p begin="00:00:11" end="00:00:20">English 00:00:11 to 00:00:20</p>
+            <p begin="00:00:19" end="00:00:35">English 00:00:19 to 00:00:35</p>
+            <p begin="00:00:33" end="00:00:37">English 00:00:33 to 00:00:37</p>
+            <p begin="00:00:35" end="00:00:38">English 00:00:35 to 00:00:38</p>
+            <p begin="00:00:36" end="00:00:40">English 00:00:36 to 00:00:40</p>
+            <p begin="00:00:38" end="00:00:50">English 00:00:38 to 00:00:50</p>
+            <p begin="00:00:48" end="00:00:60">English 00:00:50 to 00:00:60</p>
+        </div>     
+    </body>
+</tt>

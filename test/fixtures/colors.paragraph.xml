@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" >
+  <body>
+    <div ttm:role="captions">
+      <p begin='00:00:00.000' end='00:00:00.900' tts:color="#00ff00">#00ff00 (lime)</p>
+      <p begin='00:00:01.000' end='00:00:01.900' tts:color="#00FF00FF">#00FF00FF (lime; full-opacity)</p>
+      <p begin='00:00:02.000' end='00:00:02.900' tts:color="#00FF0000">#00FF0000 (lime; transparent)</p>
+      <p begin='00:00:03.000' end='00:00:03.900' tts:color="rgb(0,255,0)">rgb(0,255,0) lime</p>
+      <p begin='00:00:04.000' end='00:00:04.900' tts:color="rgba(0,255,0,1)">rgba(0,255,0,1) (lime; full-opacity)</p>
+      <p begin='00:00:05.000' end='00:00:05.900' tts:color="rgba(0,255,0,0)">rgba(0,255,0,0) (lime; transparent)</p>
+      <p begin='00:00:06.000' end='00:00:06.900' tts:color="lime">lime</p>
+      <p begin='00:00:07.000' end='00:00:07.900' tts:color="#FFFFFF">white (#FFFFFF) <span tts:color="#000000">black (#000000)</span></p>
+      <p begin='00:00:08.000' end='00:00:08.900' tts:color="white">white (white) <span tts:color="black">black (black)</span></p>
+      <p begin='00:00:09.000' end='00:00:09.900' tts:color='white' tts:backgroundColor='#000000'>Black(#000000) Background</p>
+      <p begin='00:00:10.000' end='00:00:10.900' tts:color='white' tts:backgroundColor='#000000FF'>Black(#000000FF) Background</p>
+      <p begin='00:00:11.000' end='00:00:11.900' tts:color='white' tts:backgroundColor='rgb(0,0,0)'>Black(rgb(0,0,0)) Background</p>
+      <p begin='00:00:12.000' end='00:00:12.900' tts:color='white' tts:backgroundColor='rgba(0,0,0,1)'>Black(rgba(0,0,0,1)) Background</p>
+      <p begin='00:00:13.000' end='00:00:13.900' tts:color='white' tts:backgroundColor='black'>Black(Black) Background</p>
+    </div>
+  </body>
+</tt>

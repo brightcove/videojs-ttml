@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" >
+  <head>
+      <styling>
+         <style
+            xml:id="style-attribute"
+            tts:backgroundColor="black"
+            tts:color="#ffffff"
+            tts:extent="80% 10%"
+            tts:fontFamily="Arial"
+            tts:fontSize="10px"
+            tts:fontStyle="normal"
+            tts:fontWeight="normal"
+            tts:origin="10% 85%"
+            tts:textAlign="center"
+            tts:textDecoration="none">
+         </style>
+         <style
+            xml:id="style-attribute-2"
+            tts:backgroundColor="black"
+            tts:color="#ffffff"
+            tts:fontFamily="Arial"
+            tts:fontSize="10px"
+            tts:fontStyle="normal"
+            tts:fontWeight="normal"
+            tts:textAlign="center"
+            tts:textDecoration="none">
+         </style>
+      </styling>
+      <layout>
+         <region style="defaultSpeaker" xml:id="speaker"></region>
+      </layout>
+  </head>
+  <body tts:textAlign="center">
+    <div ttm:role="captions">
+      <p begin='00:00:00.000' end='00:00:00.900'><span tts:textDecoration='underline'>underlined text</span></p>
+      <p begin='00:00:01.000' end='00:00:01.900'><span tts:textDecoration='overline'>overlined text</span></p>
+      <p begin='00:00:02.000' end='00:00:02.900'><span tts:textDecoration='lineThrough'>line through text</span></p>
+    </div>
+  </body>
+</tt>

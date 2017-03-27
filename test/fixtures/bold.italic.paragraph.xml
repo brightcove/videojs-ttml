@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" >
+  <body tts:textAlign="center">
+    <div ttm:role="captions">
+      <p begin="00:00:02.000" end="00:00:02.900" tts:fontStyle='italic'>Italic</p>
+      <p begin="00:00:03.000" end="00:00:03.900" tts:fontStyle='oblique'>Oblique</p>
+      <p begin="00:00:04.000" end="00:00:04.900" tts:fontWeight='bold'>Bold</p>
+      <p begin="00:00:05.000" end="00:00:05.900" tts:fontStyle='normal'>Normal Style</p>
+      <p begin="00:00:06.000" end="00:00:06.900" tts:fontWeight='normal'>Normal Weight</p>
+      <p begin="00:00:07.000" end="00:00:07.900" tts:fontStyle='italic' tts:fontWeight='bold'>ItalicBold</p>
+    </div>
+  </body>
+</tt>

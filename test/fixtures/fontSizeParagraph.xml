@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" >
+  <head>
+      <styling>
+         <style
+            xml:id="style-attribute"
+            tts:backgroundColor="black"
+            tts:color="#ffffff"
+            tts:extent="80% 10%"
+            tts:fontFamily="Arial"
+            tts:fontSize="10px"
+            tts:fontStyle="normal"
+            tts:fontWeight="normal"
+            tts:origin="10% 85%"
+            tts:textAlign="center"
+            tts:textDecoration="none">
+         </style>
+         <style
+            xml:id="style-attribute-2"
+            tts:backgroundColor="black"
+            tts:color="#ffffff"
+            tts:fontFamily="Arial"
+            tts:fontSize="10px"
+            tts:fontStyle="normal"
+            tts:fontWeight="normal"
+            tts:textAlign="center"
+            tts:textDecoration="none">
+         </style>
+      </styling>
+      <layout>
+         <region style="defaultSpeaker" xml:id="speaker"></region>
+      </layout>
+  </head>
+  <body tts:textAlign="center">
+    <div ttm:role="captions">
+      <p begin='00:00:00.000' end='00:00:00.900' tts:fontSize='3c'>this is 3c</p>
+      <p begin='00:00:01.000' end='00:00:01.900' tts:fontSize='30px'>this is 30px</p>
+      <p begin='00:00:02.000' end='00:00:02.900' tts:fontSize='2em'>this is 2em</p>
+      <p begin='00:00:03.000' end='00:00:03.900' tts:fontSize='50%'>this is 50%</p>
+    </div>
+  </body>
+</tt>

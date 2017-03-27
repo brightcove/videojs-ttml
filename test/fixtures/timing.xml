@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" >
+    <head>
+    </head>
+    <body tts:textAlign="center">
+        <div ttm:role="captions">
+            <p begin="0ms" end="50ms">0-50ms</p>
+            <p begin="1s" end="2s">1-2s</p>
+            <p begin="1m" end="2m">1-2m</p>
+            <p begin="1h" end="2h">1-2h</p>
+            <p begin="02:00:00" end="02:30:00">2-2.5h</p>
+            <p begin="0002:31:00" end="000002:32:32">2:31-2:32:32</p>
+            <p begin="02:35:00.000" end="02:35:00.500">2:35:00 0-500ms</p>
+            <p begin="02:36:00:000" end="02:36:00:25">2:36:00 frames 0-25 out of 30 frames default</p>
+            <p begin="02:36:00:26.0" end="02:36:00:26.1">2:36:00 frames 0-25 out of 30 frames default and 0-1 subframe</p>
+        </div>
+    </body>
+</tt>
