@@ -16,20 +16,20 @@ videojs.plugin('ttml', function(options) {
     ttmlDisplay = player.addChild('ttmlDisplay');
   });
 
-  document.querySelector('.on-button').addEventListener('click', function() {
-    ttmlDisplay.enable();
-  });
-  document.querySelector('.off-button').addEventListener('click', function() {
-    ttmlDisplay.disable();
-  });
+document.querySelector('.on-button').addEventListener('click', function() {
+  ttmlDisplay.enable();
+});
+document.querySelector('.off-button').addEventListener('click', function() {
+  ttmlDisplay.disable();
+});
 
-  document.querySelector('.en-button').addEventListener('click', function() {
-    ttmlDisplay.setLanguage('en');
-    ttmlDisplay.enable();
-  });
+document.querySelector('.en-button').addEventListener('click', function() {
+  ttmlDisplay.setLanguage('en');
+  ttmlDisplay.enable();
+});
 
-  document.querySelector('.fr-button').addEventListener('click', function() {
-    ttmlDisplay.setLanguage('fr');
-    ttmlDisplay.enable();
-  });
+document.querySelector('.fr-button').addEventListener('click', function() {
+  ttmlDisplay.setLanguage('fr');
+  ttmlDisplay.enable();
+});
 });
